@@ -1,1 +1,2 @@
-# Pairs-Trading-Bollinger-Bands
+
+This code implements a pairs trading strategy using Bollinger Bands on a universe of 12 ETFs, including major indices like SPY, DIA, and QQQ, as well as others like IWM, EFA, and EEM. The strategy identifies the top 3 most correlated pairs over a specified lookback period, using a dynamic hedge ratio that adjusts daily based on linear regression. It then calculates a spread and applies Bollinger Bands with a 20-day simple moving average and 2 standard deviations to generate trading signals. When the spread crosses below the lower band, the strategy enters a long position in the spread, and when it crosses above the upper band, it enters a short position.
